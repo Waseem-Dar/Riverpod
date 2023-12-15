@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:new_project/Provider/fruit_screen.dart';
 import 'package:new_project/Provider/value_notifier.dart';
 import 'package:new_project/Riverpod/example/posts_screeen.dart';
+import 'package:new_project/screens/portfolio.dart';
 import 'package:new_project/screens/responsive.dart';
 import 'package:new_project/screens/reverse.dart';
 import 'package:provider/provider.dart';
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
             //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             //   useMaterial3: true,
             // ),
-            home: DesignScreen(),
+            home: PortFolio(),
 
           );
         }
